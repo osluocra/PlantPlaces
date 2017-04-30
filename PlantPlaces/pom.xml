@@ -50,15 +50,30 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>4.0</version>
 		</dependency>
+
+
 		<dependency>
-    <groupId>com.sun.faces</groupId>
-    <artifactId>jsf-api</artifactId>
-    <version>2.2.12</version>
-</dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- <dependency> <groupId>com.sun.faces</groupId> <artifactId>jsf-impl</artifactId> 
+			<version>2.1.6</version> </dependency> -->
+
+
+
+		<dependency>
+			<groupId>com.sun.faces</groupId>
+			<artifactId>jsf-api</artifactId>
+			<version>2.2.12</version>
+		</dependency>
 	</dependencies>
 </project>
