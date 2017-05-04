@@ -23,4 +23,5 @@ public class ApplicationInfo {
 	public void setSlogan(String slogan) {
 		this.slogan = slogan;
 	}
+	
 }

@@ -16,8 +16,8 @@
 			<em><h:outputLabel value="#{applicationInfo.slogan}"/></em>
 			Enter a plant name, and the choose Search
 			<h:form>
-				<p:autoComplete id="acSimple" minQueryLength="2" value="#{plant.name}" completeMethod="#{searchResults.completePlants}" effect="fade" />
-				<p:commandButton value="Submit" actionListener="#{searchResults.results}" styleClass="ui-priority-primary"/>
+				<p:autoComplete id="acSimple" minQueryLength="2" value="#{plant.name}" completeMethod="#{searchPlants.completePlants}" effect="fade" />
+				<p:commandButton value="Submit" actionListener="#{searchPlants.results}" styleClass="ui-priority-primary"/>
 			</h:form>
 			<br />
 			<h:link value="Contact Us" outcome="contactUs" />

@@ -15,6 +15,8 @@ public class Plant {
 	private String cultivar;
 	private String common;
 	private String species;
+	private int guid;
+	
 	
 
 	public String getGenus() {
@@ -60,6 +62,14 @@ public class Plant {
 
 	public void setSpecies(String species) {
 		this.species = species;
+	}
+
+	public int getGuid() {
+		return guid;
+	}
+
+	public void setGuid(int guid) {
+		this.guid = guid;
 	}
 
 	
