@@ -42,6 +42,7 @@ public class SearchPlants {
 	}
 	
 	public List<Plant> completePlants(String query){
+		System.out.println("query: " + query);
 		return plantService.filterPlants(query);		 		
 	}
 }

@@ -8,6 +8,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import org.ochoalara.dao.IPlantDAO;
+import org.ochoalara.dao.PlantDAOStub;
 import org.ochoalara.dto.Plant;
 
 @Named
@@ -25,6 +26,7 @@ public class PlantServiceImpl implements IPlantService {
 			allPlants = getPlantDAO().fetchPlants();
 		}
 
+		System.out.println("allPlants: " + allPlants);
 		List<Plant> returnPlants = new ArrayList<Plant>();
 		//filter the list
 		for (Plant plant : allPlants) {
